@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hitables">
+      <UniqueIdentifier>{9927096d-174f-45e7-a489-2a27c1d93945}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hitable.h">
+      <Filter>hitables</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>hitables</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>hitables</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="mat.h" />
+    <ClInclude Include="Hitables.h">
+      <Filter>hitables</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
